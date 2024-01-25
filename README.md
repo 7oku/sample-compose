@@ -1,2 +1,2 @@
 # sample-compose
-sample compose file
+Just a sample compose file
