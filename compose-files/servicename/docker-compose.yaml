@@ -5,3 +5,5 @@ services:
     container_name: alpine-test
     image: alpine
     tty: true
+    environment:
+      TESTVAR: "TESTVALUE"
