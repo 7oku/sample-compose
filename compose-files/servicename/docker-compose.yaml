@@ -6,4 +6,7 @@ services:
     image: alpine
     tty: true
     environment:
-      TESTVAR: "TESTVALUE"
+      TESTVAR: "${TESTVAR}"
+      TESTCLIVAR: "TESTCLIVAR"
+    env_file:
+      - .env
